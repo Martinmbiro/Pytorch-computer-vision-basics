@@ -6,14 +6,14 @@
 
 Hello again 👋
 + [Computer Vision](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-computer-vision#:~:text=Computer%20vision%20is%20a%20field,tasks%20that%20replicate%20human%20capabilities.) is a branch of [Deep Learning](https://en.wikipedia.org/wiki/Deep_learning) that aims to artificially imitate human vision by enabling computers to perceive visual stimuli (photos, videos) meaningfully
-+ In this repository, I solve an end to end multi-class image classification problem on the [`FashionMNIST`](https://github.com/zalandoresearch/fashion-mnist) dataset. `FashionMNIST` is a relatively simple dataset that has already been solved, but it's good for entry-level Deep Learning practice. Besides, I'll be focusing on getting the basics right. The `FashionMNIST` dataset consists of grayscale images, with `60,000` training samples and `10,000` test samples of `28` pixels in height and width
-+ There's many algorithms that can solve a computer vision problem, but first we'll start with a standard [Multi-Layer Perceptron](https://www.datacamp.com/tutorial/multilayer-perceptrons-in-machine-learning) made of linear layers. We'll improve on this by building a second network using [Convolutional Neural Network (CNN)](https://youtu.be/YRhxdVk_sIs?si=k07XdCsMDS3OQDmh), then finish with a tweaked version of the [TinyVGG model](https://www.youtube.com/watch?v=HnWIHWFbuUQ)
++ In this repository, I solve an end to end multi-class image classification problem on the [`FashionMNIST`](https://github.com/zalandoresearch/fashion-mnist) dataset. `FashionMNIST` is a relatively simple dataset that has already been solved, but is good for entry-level Deep Learning practice. Besides, I'll be focusing on getting the basics right. The `FashionMNIST` dataset consists of `10` classes of grayscale images, with `60,000` training samples and `10,000` test samples of `28` pixels in height and width
++ There are many algorithms that can solve a computer vision problem, but first we'll start with a standard [Multi-Layer Perceptron](https://www.datacamp.com/tutorial/multilayer-perceptrons-in-machine-learning) made of linear layers. We'll improve on this by building a second network using [Convolutional Neural Network (CNN)](https://youtu.be/YRhxdVk_sIs?si=k07XdCsMDS3OQDmh), then finish with a tweaked version of the [TinyVGG model](https://www.youtube.com/watch?v=HnWIHWFbuUQ)
 + Comments, working code, and links to the latest official documentation are included every step of the way. There's links to open each notebook (_labeled 01...04_) in Google Colab - feel free to play around with the code
 
 ## Milestones 🏁
 **Concepts covered in this exercise include:**  
 1. [x] Data wrangling and visualization
-2. [x] Training and evaluating a multi-class classification model - build using [`PyTorch`](https://pytorch.org/)
+2. [x] Training and evaluating a multi-class image classification model - build using [`PyTorch`](https://pytorch.org/)
 3. [x] Regularization using [Early stopping](https://www.linkedin.com/advice/1/what-benefits-drawbacks-early-stopping#:~:text=Early%20stopping%20is%20a%20form,to%20increase%20or%20stops%20improving.), [`nn.BatchNorm2d`](https://pytorch.org/docs/stable/generated/torch.nn.BatchNorm2d.html#torch.nn.BatchNorm2d), [`nn.BatchNorm1d`](https://pytorch.org/docs/stable/generated/torch.nn.BatchNorm1d.html#torch.nn.BatchNorm1d), and [`nn.Dropout`](https://pytorch.org/docs/stable/generated/torch.nn.Dropout.html#torch.nn.Dropout)
 
 ## Tools ⚒️
@@ -30,7 +30,7 @@ Hello again 👋
 + An overall model accuracy of `0.9179`
 + An overall `roc_auc_score` of `0.995`
 
-> The saved model's `state_dict` can be found in drive folder linked [here](https://drive.google.com/drive/folders/1FjC2wCK9UzDOBA0qBgNVunUxLVhqsb3l?usp=drive_link)
+> The saved model's `state_dict` can be found in the drive folder linked [here](https://drive.google.com/drive/folders/1FjC2wCK9UzDOBA0qBgNVunUxLVhqsb3l?usp=drive_link)
 
 
 ## Reference 📚
